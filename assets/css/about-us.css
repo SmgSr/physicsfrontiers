@@ -163,3 +163,15 @@
         font-weight: 600
     }
 }
+
+.containement {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.containement text {
+    font-size: 20px;
+    padding-left: 10px;
+}
